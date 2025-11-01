@@ -27,57 +27,14 @@ No Ollama or GPUs required — we run a **tiny Transformers chat model on CPU**,
 
 ---
 
-## 🚀 One-click deploy (Streamlit Community Cloud)
-
-1. **Push to GitHub** a repo with:
-   - `app.py` (the Streamlit app using Transformers backend)
-   - `requirements.txt`:
-     ```
-     streamlit
-     langchain
-     langchain-community
-     langchain-text-splitters
-     langchain-huggingface
-     faiss-cpu
-     sentence-transformers
-     pypdf
-     transformers>=4.44
-     accelerate
-     torch
-     ```
-   - *(optional)* `README.md` (this file)
-
-2. Go to **Streamlit Community Cloud** → **New app** → select your repo & branch → set **Main file path** to `app.py` → **Deploy**.
-
-3. Wait for the first build (installs dependencies and downloads the model).  
-   You’ll get a **public URL** anyone can use.
-
-> **Note:** If you pick a gated HF model (e.g., some Qwen variants), add an HF token.
-
----
-
-## 🔐 (Optional) Hugging Face token
-
-Some models (e.g., `Qwen/Qwen2.5-0.5B-Instruct`) may require a token.
-
-1. In your Streamlit app page, **Settings → Secrets → New secret**:
-   - **Key:** `HF_TOKEN`
-   - **Value:** your Hugging Face access token
-
-2. The app reads it automatically and passes it to `from_pretrained`.
-
-Pick **TinyLlama** to avoid tokens altogether.
-
----
-
 ## 🧪 Local development
 
 ### Using `uv` (recommended)
 
 # 1) Create project
 uv venv
-## Windows: .\.venv\Scripts\activate
-## macOS/Linux: source .venv/bin/activate
+Windows: .\.venv\Scripts\activate
+macOS/Linux: source .venv/bin/activate
 
 # 2) Install
 uv pip install -r requirements.txt
