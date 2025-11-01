@@ -1,7 +1,4 @@
-Here’s a copy-paste **`README.md`** you can drop into your repo for the Streamlit Community Cloud deployment.
-
-````md
-# 📄 PDF RAG — Free CPU Deploy (Streamlit)
+# 📄 PDF RAG — 
 
 Chat with your own PDFs using a lightweight, **free-to-host** RAG pipeline on **Streamlit Community Cloud**.  
 No Ollama or GPUs required — we run a **tiny Transformers chat model on CPU**, FAISS for retrieval, and maintain **conversational memory** between turns.
@@ -167,8 +164,4 @@ PRs welcome! Ideas:
 * Multi-file ingestion & background indexing
 * Rerankers (e.g., `bge-reranker-base`) for better retrieval quality
 
-```
-
-If you want, I can also generate a small **template repo** (all files ready) that you can push to GitHub directly.
-::contentReference[oaicite:0]{index=0}
 ```
