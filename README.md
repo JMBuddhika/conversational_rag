@@ -76,8 +76,8 @@ Pick **TinyLlama** to avoid tokens altogether.
 
 # 1) Create project
 uv venv
-# Windows: .\.venv\Scripts\activate
-# macOS/Linux: source .venv/bin/activate
+## Windows: .\.venv\Scripts\activate
+## macOS/Linux: source .venv/bin/activate
 
 # 2) Install
 uv pip install -r requirements.txt
