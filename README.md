@@ -2,7 +2,8 @@
 
 Chat with your own PDFs using a lightweight, **free-to-host** RAG pipeline on **Streamlit Community Cloud**.  
 No Ollama or GPUs required — we run a **tiny Transformers chat model on CPU**, FAISS for retrieval, and maintain **conversational memory** between turns.
-<img width="1882" height="755" alt="image" src="https://github.com/user-attachments/assets/1d932ea0-8cfc-4ed5-bb48-af879904bb4a" />
+
+<img width="1906" height="674" alt="image" src="https://github.com/user-attachments/assets/ddb1c8c0-b0fe-4a6e-86ac-777aa652e879" />
 
 ---
 
