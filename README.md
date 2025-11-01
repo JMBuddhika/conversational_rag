@@ -112,7 +112,7 @@ A: Streamlit Cloud free tier can’t run Ollama. Use a tiny Transformers model h
 
 ## 📜 License
 
-MIT (or your preferred license). Add a `LICENSE` file if you need one.
+MIT. Add a `LICENSE` file if you need one.
 
 ---
 
