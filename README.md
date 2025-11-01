@@ -1,4 +1,4 @@
-# 📄 PDF RAG — 
+# 📄 PDF RAG
 
 Chat with your own PDFs using a lightweight, **free-to-host** RAG pipeline on **Streamlit Community Cloud**.  
 No Ollama or GPUs required — we run a **tiny Transformers chat model on CPU**, FAISS for retrieval, and maintain **conversational memory** between turns.
