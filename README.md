@@ -33,7 +33,9 @@ No Ollama or GPUs required — we run a **tiny Transformers chat model on CPU**,
 
 # 1) Create project
 uv venv
+
 Windows: .\.venv\Scripts\activate
+
 macOS/Linux: source .venv/bin/activate
 
 # 2) Install
