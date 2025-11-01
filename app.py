@@ -71,7 +71,7 @@ def load_llm(selected_id: str, max_new_tokens: int = 512):
     tok = AutoTokenizer.from_pretrained(selected_id, token=hf_token)
     mdl = AutoModelForCausalLM.from_pretrained(
         selected_id,
-        torch_dtype=torch.float32,   # CPU-safe
+        dtype=torch.float32,   # CPU-safe
         token=hf_token,
     )
     gen = pipeline(
